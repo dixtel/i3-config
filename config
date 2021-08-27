@@ -214,5 +214,5 @@ hide_edge_borders both
 # flameshot https://github.com/flameshot-org/flameshot
 bindsym --release Print exec flameshot gui
 
-# hide mouse (clutter from apt)
-exec_always clutter &
+# hide mouse (clone here https://github.com/Airblader/unclutter-xfixes, read DEPENDENCIES file)
+exec_always ~/.config/i3/unclutter-xfixes/unclutter &
