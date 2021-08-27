@@ -210,3 +210,9 @@ client.background       #F8F8F2
 
 # hide edge borders
 hide_edge_borders both
+
+# flameshot https://github.com/flameshot-org/flameshot
+bindsym --release Print exec flameshot gui
+
+# hide mouse (clutter from apt)
+exec_always clutter &
