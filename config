@@ -216,3 +216,7 @@ bindsym --release Print exec flameshot gui
 
 # hide mouse (clone here https://github.com/Airblader/unclutter-xfixes, read DEPENDENCIES file)
 exec_always ~/.config/i3/unclutter-xfixes/unclutter &
+
+# https://unix.stackexchange.com/a/625983/395516
+bindsym XF86MonBrightnessUp exec light -A 1 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 1 # decrease screen brightness
