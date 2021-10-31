@@ -223,3 +223,5 @@ bindsym XF86MonBrightnessDown exec light -U 1 # decrease screen brightness
 
 # flux
 exec_always fluxgui &
+
+# display manager https://github.com/nullgemm/ly
