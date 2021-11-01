@@ -228,3 +228,6 @@ exec_always fluxgui &
 
 # display workspace names https://github.com/cboddy/i3-workspace-names-daemon
 exec_always --no-startup-id exec i3-workspace-names-daemon -d=" "
+
+# disable title bar (not in tabbed or stacked container)
+for_window [class="^.*"] border pixel 1
