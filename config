@@ -225,3 +225,6 @@ bindsym XF86MonBrightnessDown exec light -U 1 # decrease screen brightness
 exec_always fluxgui &
 
 # display manager https://github.com/nullgemm/ly
+
+# display workspace names https://github.com/cboddy/i3-workspace-names-daemon
+exec_always --no-startup-id exec i3-workspace-names-daemon -d=" "
