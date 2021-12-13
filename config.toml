@@ -26,6 +26,7 @@ format_swap = "{mem_used}/{mem_total}"
 [[block]]
 block = "cpu"
 warning = 80
+info = 79
 interval = 1
 
 [[block]]
