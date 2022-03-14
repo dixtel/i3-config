@@ -231,3 +231,6 @@ exec_always --no-startup-id exec i3-workspace-names-daemon -d=" "
 
 # disable title bar (not in tabbed or stacked container)
 for_window [class="^.*"] border pixel 1
+
+# monitor setup 
+exec xrandr --output HDMI-1 --auto --right-of DP-1
