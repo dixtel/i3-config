@@ -233,4 +233,10 @@ exec_always --no-startup-id exec i3-workspace-names-daemon -d=" "
 for_window [class="^.*"] border pixel 1
 
 # monitor setup 
-exec xrandr --output HDMI-1 --auto --right-of DP-1
+exec xrandr --output HDMI-5 --auto --right-of DP-3
+
+# lock screen setup
+# 1. use i3lock
+# 2. run 'xss-lock --transfer-sleep-lock -- i3lock --nofork' as deamon
+# 3. to test run "xset s activate"
+exec_always xss-lock --transfer-sleep-lock -- i3lock -c 000000 --nofork &
